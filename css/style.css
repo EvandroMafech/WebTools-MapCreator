@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "jaro";
+}
+
+body{
+    background-color: #212121;
+}
+
+header{
+    background-color: #292929;
+    padding: 0 15px;
+    height:  55px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+header > h1{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+aside{
+    display: flex;
+    width: 100%;
+    max-width: 310px;
+    min-width: 310px;
+    background-color: #2c2c2c;
+    padding: 20px 20px;
+    min-height: calc(100dvh - 55px);
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.canvas{
+    min-width: 1500px;
+    min-height: 800px;
+    position: relative; 
+    width: 1500px;
+    height: 800px;
+    margin-top: 20px;
+}
+.tileset, .animations {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+}
+.tileset {
+    z-index: 0; 
+}
+
+.animations {
+    z-index:  1; 
+}
+
+.main-btn {
+    background-color: #3a444e;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.dropdown{
+    display: none;
+}
+
+.show {
+    display: table-column;
+}
+
+.sub-btn {
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: #2c2c2c;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#t1{background-image: url("../assets/images/terrain/Ground/terrain1.png");}
+#t2{background-image: url("../assets/images/terrain/Ground/terrain2.png");}
+#t3{background-image: url("../assets/images/terrain/Ground/terrain2.png");}
+#t4{background-image: url("../assets/images/terrain/Ground/terrain3.png");}
+#t5{background-image: url("../assets/images/terrain/Ground/terrain4.png");}
+
+#t6{background-image: url("../assets/images/terrain/Ground/terrain5.png");}
+#t7{background-image: url("../assets/images/terrain/Ground/terrain6.png");}
+#t8{background-image: url("../assets/images/terrain/Ground/terrain6.png");}
+#t9{background-image: url("../assets/images/terrain/Ground/terrain7.png");}
+#t10{background-image: url("../assets/images/terrain/Ground/terrain8.png");}
+
+#t11{background-image: url("../assets/images/terrain/Ground/terrain9.png");}
+#t12{background-image: url("../assets/images/terrain/Ground/terrain10.png");}
+#t13{background-image: url("../assets/images/terrain/Ground/terrain10.png");}
+#t14{background-image: url("../assets/images/terrain/Ground/terrain11.png");}
+#t15{background-image: url("../assets/images/terrain/Ground/terrain12.png");}
+
+#t16{background-image: url("../assets/images/terrain/Ground/terrain13.png");}
+#t17{background-image: url("../assets/images/terrain/Ground/terrain14.png");}
+#t18{background-image: url("../assets/images/terrain/Ground/terrain15.png");}
+#t19{background-image: url("../assets/images/terrain/Ground/terrain16.png");}
+#t20{background-image: url("../assets/images/terrain/Ground/terrain17.png");}
+
+
+#t21{background-image: url("../assets/images/terrain/Ground/terrain19.png");}
+#t22{background-image: url("../assets/images/terrain/Ground/terrain20.png");}
+#t23{background-image: url("../assets/images/terrain/Ground/terrain20.png");}
+#t24{background-image: url("../assets/images/terrain/Ground/terrain21.png");}
+#t25{background-image: url("../assets/images/terrain/Ground/terrain22.png");}
+
+#t26{background-image: url("../assets/images/terrain/Ground/terrain23.png");}
+#t27{background-image: url("../assets/images/terrain/Ground/terrain24.png");}
+#t28{background-image: url("../assets/images/terrain/Ground/terrain24.png");}
+#t29{background-image: url("../assets/images/terrain/Ground/terrain28.png");}
+#t30{background-image: url("../assets/images/terrain/Ground/terrain33.png");}
+
+#t31{background-image: url("../assets/images/terrain/Ground/terrain26.png");}
+#t32{background-image: url("../assets/images/terrain/Ground/terrain27.png");}
+#t33{background-image: url("../assets/images/terrain/Ground/terrain27.png");}
+#t34{background-image: url("../assets/images/terrain/Ground/terrain28.png");}
+#t35{background-image: url("../assets/images/terrain/Ground/terrain34.png");}
+
+#t36{background-image: url("../assets/images/terrain/Ground/terrain29.png");}
+#t37{background-image: url("../assets/images/terrain/Ground/terrain30.png");}
+#t38{background-image: url("../assets/images/terrain/Ground/terrain31.png");}
+#t39{background-image: url("../assets/images/terrain/Ground/terrain32.png");}
+#t40{background-image: url("../assets/images/terrain/Ground/terrain18.png");}
+
+#t41{background-image: url("../assets/images/terrain/Water/Water.png");}
+
+#d1{background-image: url("../assets/images/decorations/01.png");}
+#d2{background-image: url("../assets/images/decorations/02.png");}
+#d3{background-image: url("../assets/images/decorations/03.png");}
+#d4{background-image: url("../assets/images/decorations/04.png");}
+#d5{background-image: url("../assets/images/decorations/05.png");}
+#d6{background-image: url("../assets/images/decorations/06.png");}
+#d7{background-image: url("../assets/images/decorations/07.png");}
+#d8{background-image: url("../assets/images/decorations/08.png");}
+#d9{background-image: url("../assets/images/decorations/09.png");}
+#d10{background-image: url("../assets/images/decorations/10.png");}
+#d11{background-image: url("../assets/images/decorations/11.png");}
+#d12{background-image: url("../assets/images/decorations/12.png");}
+#d13{background-image: url("../assets/images/decorations/13.png");}
+#d14{background-image: url("../assets/images/decorations/14.png");}
+#d15{background-image: url("../assets/images/decorations/15.png");}
+#d16{background-image: url("../assets/images/decorations/16.png");}
+#d17{background-image: url("../assets/images/decorations/17.png");}
+#d18{background-image: url("../assets/images/decorations/18.png");}
+
+
+#s1{background-image: url("../assets/images/factions/knights/Buildings/Castle/Castle_Blue.png");}
+#s2{background-image: url("../assets/images/factions/knights/Buildings/House/House_Blue.png");}
+#s3{background-image: url("../assets/images/factions/knights/Buildings/Tower/Tower_Blue.png");}
+#s4{background-image: url("../assets/images/factions/goblins/Buildings/Wood_House/Goblin_House.png");}
+#s5{background-image: url("../assets/images/factions/goblins/Buildings/Wood_Tower/Wood_Tower_Red.gif");}
+
+
+#g1{background-image: url("../assets/images/factions/goblins/Troops/TNT/Red/TNT_Red.gif");}
+#g2{background-image: url("../assets/images/factions/goblins/Troops/Torch/Red/Torch_Red_attack.gif");}
+#g3{background-image: url("../assets/images/factions/goblins/Troops/Torch/Red/Torch_Red_idle.gif");}
+
+#k1{background-image: url("../assets/images/factions/knights/Troops/Archer/Blue/Archer_Blue_idle.gif");}
+#k2{background-image: url("../assets/images/factions/knights/Troops/Archer/Blue/Archer_Blue_shoot.gif");}
+#k3{background-image: url("../assets/images/factions/knights/Troops/Pawn/Blue/Pawn_Blue_build.gif");}
+#k4{background-image: url("../assets/images/factions/knights/Troops/Pawn/Blue/Pawn_Blue_chop.gif");}
+#k5{background-image: url("../assets/images/factions/knights/Troops/Pawn/Blue/Pawn_Blue_idle.gif");}
+#k6{background-image: url("../assets/images/factions/knights/Troops/Warrior/Blue/Warrior_Blue_attack1.gif");}
+#k7{background-image: url("../assets/images/factions/knights/Troops/Warrior/Blue/Warrior_Blue_attack2.gif");}
+#k8{background-image: url("../assets/images/factions/knights/Troops/Warrior/Blue/Warrior_Blue_idle.gif");}
+
+#r1{background-image: url("../assets/images/resources/GoldMine/GoldMine_Active.png");}
+#r2{background-image: url("../assets/images/resources/GoldMine/GoldMine_Inactive.png");}
+#r3{
+    background-image: url("../assets/images/resources/Sheep/Happy_Sheep_idle.gif");
+    background-size: 160px;
+}
+#r4{
+    background-image: url("../assets/images/resources/Sheep/Happy_Sheep_jump.gif");
+    background-size: 160px;
+}
+#r5{
+    background-image: url("../assets/images/resources/Trees/Tree_chop.png");
+    background-size: 250%;
+    background-position: bottom;
+}
+#r6{
+    background-image: url("../assets/images/resources/Trees/Tree_idle.gif");
+    background-size: 120px;
+}
+
+#dropdown-2 button{
+    width: 90px;
+    height: 90px;
+}
+
+#dropdown-3 button{
+    width: 100px;
+    height: 100px;
+    background-size: 140px;
+}
+
+#dropdown-4 button{
+    width: 100px;
+    height: 100px;
+    background-size: 140px;
+}
+#dropdown-5 button{
+    width: 100px;
+    height: 100px;
+
+}
+
+
+
+
