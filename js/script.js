@@ -186,7 +186,7 @@ button.forEach(element => {
 
     element.addEventListener("click", (event) => {
         const selectedImageStyle = window.getComputedStyle(event.target);
-        const selectedImageUrl = '../' + selectedImageStyle.backgroundImage.slice(27, -2)
+        const selectedImageUrl = '../../' + selectedImageStyle.backgroundImage.slice(27, -2)
         activeImageId = event.target.id
               
         if(troopsSpriteCoordinates[activeImageId] == undefined){
