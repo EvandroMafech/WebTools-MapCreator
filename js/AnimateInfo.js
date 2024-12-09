@@ -39,7 +39,7 @@ const ImagesInfo = [
         line: 0,
         width: 256,
         height: 192,
-        image: "../assets/images/factions/goblins/Buildings/Wood_Tower/Wood_Tower_Red.png"
+        image: "../assets/Wood_Tower_Red.png"
     },
     {
 
@@ -48,7 +48,7 @@ const ImagesInfo = [
         line: 0,
         width: 192,
         height: 192,
-        image: "../assets/images/factions/knights/Troops/Archer/Blue/Archer_Blue.png"
+        image: "../assets/Archer_Blue.png"
     },
     {
 
@@ -57,7 +57,7 @@ const ImagesInfo = [
         line: 2,
         width: 192,
         height: 192,
-        image: "../assets/images/factions/knights/Troops/Pawn/Blue/Pawn_Blue.png"
+        image: "../assets/Pawn_Blue.png"
 
     },
     {
@@ -67,7 +67,7 @@ const ImagesInfo = [
         line: 3,
         width: 192,
         height: 192,
-        image: "../assets/images/factions/knights/Troops/Pawn/Blue/Pawn_Blue.png"
+        image: "../assets/Pawn_Blue.png"
     },
     {
 
@@ -76,7 +76,7 @@ const ImagesInfo = [
         line: 0,
         width: 192,
         height: 192,
-        image: "../assets/images/factions/knights/Troops/Pawn/Blue/Pawn_Blue.png"
+        image: "../assets/Pawn_Blue.png"
     },
     {
 
@@ -85,7 +85,7 @@ const ImagesInfo = [
         line: 4,
         width: 192,
         height: 192,
-        image: "../assets/images/factions/knights/Troops/Archer/Blue/Archer_Blue.png"
+        image: "../assets/Archer_Blue.png"
     },
     {
 
@@ -94,7 +94,7 @@ const ImagesInfo = [
         line: 3,
         width: 192,
         height: 192,
-        image: "../assets/images/factions/knights/Troops/Warrior/Blue/Warrior_Blue.png"
+        image: "../assets/Warrior_Blue.png"
     },
     {
 
@@ -103,7 +103,7 @@ const ImagesInfo = [
         line: 2,
         width: 192,
         height: 192,
-        image: "../assets/images/factions/knights/Troops/Warrior/Blue/Warrior_Blue.png"
+        image: "../assets/Warrior_Blue.png"
     },
     {
 
@@ -112,7 +112,7 @@ const ImagesInfo = [
         line: 0,
         width: 192,
         height: 192,
-        image: "../assets/images/factions/knights/Troops/Warrior/Blue/Warrior_Blue.png"
+        image: "../assets/Warrior_Blue.png"
     },
     {
 
@@ -121,7 +121,7 @@ const ImagesInfo = [
         line: 0,
         width: 192,
         height: 192,
-        image: "../assets/images/factions/goblins/Troops/TNT/Red/TNT_Red.png"
+        image: "../assets/TNT_Red.png"
     },
     {
 
@@ -130,7 +130,7 @@ const ImagesInfo = [
         line: 2,
         width: 192,
         height: 192,
-        image: "../assets/images/factions/goblins/Troops/Torch/Red/Torch_Red.png"
+        image: "../assets/Torch_Red.png"
     },
     {
 
@@ -139,7 +139,7 @@ const ImagesInfo = [
         line: 0,
         width: 192,
         height: 192,
-        image: "../assets/images/factions/goblins/Troops/Torch/Red/Torch_Red.png"        
+        image: "../assets/Torch_Red.png"        
     },
     {
 
@@ -148,7 +148,7 @@ const ImagesInfo = [
         line: 0,
         width: 192,
         height: 192,
-        image: "../assets/images/resources/Trees/Tree.png"
+        image: "../assets/Tree.png"
     },
     {
 
@@ -157,7 +157,7 @@ const ImagesInfo = [
         line: 0,
         width: 128,
         height: 128,
-        image: "../assets/images/resources/Sheep/HappySheep_Idle.png"
+        image: "../assets/HappySheep_Idle.png"
     },
     {
         name: "r4", //sheep jump
@@ -165,7 +165,7 @@ const ImagesInfo = [
         line: 0,
         width: 128,
         height: 128,
-        image: "../assets/images/resources/Sheep/HappySheep_Bouncing.png"
+        image: "../assets/HappySheep_Bouncing.png"
     },
     {
         name: "s1", 
@@ -173,7 +173,7 @@ const ImagesInfo = [
         line: 0,
         width: 320,
         height: 256,
-        image: "../assets/images/factions/knights/Buildings/Castle/Castle_Blue.png"
+        image: "../assets/Castle_Blue.png"
     },
     {
         name: "s2", 
@@ -181,7 +181,7 @@ const ImagesInfo = [
         line: 0,
         width: 128,
         height: 192,
-        image: "../assets/images/factions/knights/Buildings/House/House_Blue.png"
+        image: "../assets/House_Blue.png"
     },
     {
         name: "s3", 
@@ -189,7 +189,7 @@ const ImagesInfo = [
         line: 0,
         width: 128,
         height: 256,
-        image: "../assets/images/factions/knights/Buildings/Tower/Tower_Blue.png"
+        image: "../assets/Tower_Blue.png"
     },
     {
         name: "s4", 
@@ -197,7 +197,7 @@ const ImagesInfo = [
         line: 0,
         width: 128,
         height: 192,
-        image: "../assets/images/factions/goblins/Buildings/Wood_House/Goblin_House.png"
+        image: "../assets/Goblin_House.png"
     },
     {
         name: "d16", 
@@ -205,7 +205,7 @@ const ImagesInfo = [
         line: 0,
         width: 64,
         height: 128,
-        image: "../assets/images/decorations/16.png"
+        image: "../assets/16.png"
     },
     {
         name: "d17", 
@@ -213,7 +213,7 @@ const ImagesInfo = [
         line: 0,
         width: 64,
         height: 128,
-        image: "../assets/images/decorations/17.png"
+        image: "../assets/17.png"
     },
     {
         name: "d18", 
@@ -221,7 +221,7 @@ const ImagesInfo = [
         line: 0,
         width: 192,
         height: 192,
-        image: "../assets/images/decorations/18.png"
+        image: "../assets/18.png"
     },
     {
         name: "r1", 
@@ -229,7 +229,7 @@ const ImagesInfo = [
         line: 0,
         width: 192,
         height: 128,
-        image: "../assets/images/resources/GoldMine/GoldMine_Active.png"
+        image: "../assets/GoldMine_Active.png"
     },
     {
         name: "r2", 
@@ -237,7 +237,7 @@ const ImagesInfo = [
         line: 0,
         width: 192,
         height: 128,
-        image: "../assets/images/resources/GoldMine/GoldMine_Inactive.png"
+        image: "../assets/GoldMine_Inactive.png"
     }
 ]
 
