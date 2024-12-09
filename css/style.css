@@ -101,114 +101,114 @@ aside{
 
 
 
-#t1{background-image: url("../assets/images/terrain/Ground/terrain1.png");}
-#t2{background-image: url("../assets/images/terrain/Ground/terrain2.png");}
-#t3{background-image: url("../assets/images/terrain/Ground/terrain2.png");}
-#t4{background-image: url("../assets/images/terrain/Ground/terrain3.png");}
-#t5{background-image: url("../assets/images/terrain/Ground/terrain4.png");}
+#t1{background-image: url("../assets/terrain1.png");}
+#t2{background-image: url("../assets/terrain2.png");}
+#t3{background-image: url("../assets/terrain2.png");}
+#t4{background-image: url("../assets/terrain3.png");}
+#t5{background-image: url("../assets/terrain4.png");}
 
-#t6{background-image: url("../assets/images/terrain/Ground/terrain5.png");}
-#t7{background-image: url("../assets/images/terrain/Ground/terrain6.png");}
-#t8{background-image: url("../assets/images/terrain/Ground/terrain6.png");}
-#t9{background-image: url("../assets/images/terrain/Ground/terrain7.png");}
-#t10{background-image: url("../assets/images/terrain/Ground/terrain8.png");}
+#t6{background-image: url("../assets/terrain5.png");}
+#t7{background-image: url("../assets/terrain6.png");}
+#t8{background-image: url("../assets/terrain6.png");}
+#t9{background-image: url("../assets/terrain7.png");}
+#t10{background-image: url("../assets/terrain8.png");}
 
-#t11{background-image: url("../assets/images/terrain/Ground/terrain9.png");}
-#t12{background-image: url("../assets/images/terrain/Ground/terrain10.png");}
-#t13{background-image: url("../assets/images/terrain/Ground/terrain10.png");}
-#t14{background-image: url("../assets/images/terrain/Ground/terrain11.png");}
-#t15{background-image: url("../assets/images/terrain/Ground/terrain12.png");}
+#t11{background-image: url("../assets/terrain9.png");}
+#t12{background-image: url("../assets/terrain10.png");}
+#t13{background-image: url("../assets/terrain10.png");}
+#t14{background-image: url("../assets/terrain11.png");}
+#t15{background-image: url("../assets/terrain12.png");}
 
-#t16{background-image: url("../assets/images/terrain/Ground/terrain13.png");}
-#t17{background-image: url("../assets/images/terrain/Ground/terrain14.png");}
-#t18{background-image: url("../assets/images/terrain/Ground/terrain15.png");}
-#t19{background-image: url("../assets/images/terrain/Ground/terrain16.png");}
-#t20{background-image: url("../assets/images/terrain/Ground/terrain17.png");}
+#t16{background-image: url("../assets/terrain13.png");}
+#t17{background-image: url("../assets/terrain14.png");}
+#t18{background-image: url("../assets/terrain15.png");}
+#t19{background-image: url("../assets/terrain16.png");}
+#t20{background-image: url("../assets/terrain17.png");}
 
 
-#t21{background-image: url("../assets/images/terrain/Ground/terrain19.png");}
-#t22{background-image: url("../assets/images/terrain/Ground/terrain20.png");}
-#t23{background-image: url("../assets/images/terrain/Ground/terrain20.png");}
-#t24{background-image: url("../assets/images/terrain/Ground/terrain21.png");}
-#t25{background-image: url("../assets/images/terrain/Ground/terrain22.png");}
+#t21{background-image: url("../assets/terrain19.png");}
+#t22{background-image: url("../assets/terrain20.png");}
+#t23{background-image: url("../assets/terrain20.png");}
+#t24{background-image: url("../assets/terrain21.png");}
+#t25{background-image: url("../assets/terrain22.png");}
 
-#t26{background-image: url("../assets/images/terrain/Ground/terrain23.png");}
-#t27{background-image: url("../assets/images/terrain/Ground/terrain24.png");}
-#t28{background-image: url("../assets/images/terrain/Ground/terrain24.png");}
-#t29{background-image: url("../assets/images/terrain/Ground/terrain28.png");}
-#t30{background-image: url("../assets/images/terrain/Ground/terrain33.png");}
+#t26{background-image: url("../assets/terrain23.png");}
+#t27{background-image: url("../assets/terrain24.png");}
+#t28{background-image: url("../assets/terrain24.png");}
+#t29{background-image: url("../assets/terrain28.png");}
+#t30{background-image: url("../assets/terrain33.png");}
 
-#t31{background-image: url("../assets/images/terrain/Ground/terrain26.png");}
-#t32{background-image: url("../assets/images/terrain/Ground/terrain27.png");}
-#t33{background-image: url("../assets/images/terrain/Ground/terrain27.png");}
-#t34{background-image: url("../assets/images/terrain/Ground/terrain28.png");}
-#t35{background-image: url("../assets/images/terrain/Ground/terrain34.png");}
+#t31{background-image: url("../assets/terrain26.png");}
+#t32{background-image: url("../assets/terrain27.png");}
+#t33{background-image: url("../assets/terrain27.png");}
+#t34{background-image: url("../assets/terrain28.png");}
+#t35{background-image: url("../assets/terrain34.png");}
 
-#t36{background-image: url("../assets/images/terrain/Ground/terrain29.png");}
-#t37{background-image: url("../assets/images/terrain/Ground/terrain30.png");}
-#t38{background-image: url("../assets/images/terrain/Ground/terrain31.png");}
-#t39{background-image: url("../assets/images/terrain/Ground/terrain32.png");}
-#t40{background-image: url("../assets/images/terrain/Ground/terrain18.png");}
+#t36{background-image: url("../assets/terrain29.png");}
+#t37{background-image: url("../assets/terrain30.png");}
+#t38{background-image: url("../assets/terrain31.png");}
+#t39{background-image: url("../assets/terrain32.png");}
+#t40{background-image: url("../assets/terrain18.png");}
 
 #t41{background-image: url("../assets/images/terrain/Water/Water.png");}
 
-#d1{background-image: url("../assets/images/decorations/01.png");}
-#d2{background-image: url("../assets/images/decorations/02.png");}
-#d3{background-image: url("../assets/images/decorations/03.png");}
-#d4{background-image: url("../assets/images/decorations/04.png");}
-#d5{background-image: url("../assets/images/decorations/05.png");}
-#d6{background-image: url("../assets/images/decorations/06.png");}
-#d7{background-image: url("../assets/images/decorations/07.png");}
-#d8{background-image: url("../assets/images/decorations/08.png");}
-#d9{background-image: url("../assets/images/decorations/09.png");}
-#d10{background-image: url("../assets/images/decorations/10.png");}
-#d11{background-image: url("../assets/images/decorations/11.png");}
-#d12{background-image: url("../assets/images/decorations/12.png");}
-#d13{background-image: url("../assets/images/decorations/13.png");}
-#d14{background-image: url("../assets/images/decorations/14.png");}
-#d15{background-image: url("../assets/images/decorations/15.png");}
-#d16{background-image: url("../assets/images/decorations/16.png");}
-#d17{background-image: url("../assets/images/decorations/17.png");}
-#d18{background-image: url("../assets/images/decorations/18.png");}
+#d1{background-image: url("../assets/01.png");}
+#d2{background-image: url("../assets/02.png");}
+#d3{background-image: url("../assets/03.png");}
+#d4{background-image: url("../assets/04.png");}
+#d5{background-image: url("../assets/05.png");}
+#d6{background-image: url("../assets/06.png");}
+#d7{background-image: url("../assets/07.png");}
+#d8{background-image: url("../assets/08.png");}
+#d9{background-image: url("../assets/09.png");}
+#d10{background-image: url("../assets/10.png");}
+#d11{background-image: url("../assets/11.png");}
+#d12{background-image: url("../assets/12.png");}
+#d13{background-image: url("../assets/13.png");}
+#d14{background-image: url("../assets/14.png");}
+#d15{background-image: url("../assets/15.png");}
+#d16{background-image: url("../assets/16.png");}
+#d17{background-image: url("../assets/17.png");}
+#d18{background-image: url("../assets/18.png");}
 
 
-#s1{background-image: url("../assets/images/factions/knights/Buildings/Castle/Castle_Blue.png");}
-#s2{background-image: url("../assets/images/factions/knights/Buildings/House/House_Blue.png");}
-#s3{background-image: url("../assets/images/factions/knights/Buildings/Tower/Tower_Blue.png");}
-#s4{background-image: url("../assets/images/factions/goblins/Buildings/Wood_House/Goblin_House.png");}
-#s5{background-image: url("../assets/images/factions/goblins/Buildings/Wood_Tower/Wood_Tower_Red.gif");}
+#s1{background-image: url("../assets/Castle_Blue.png");}
+#s2{background-image: url("../assets/House_Blue.png");}
+#s3{background-image: url("../assets/Tower_Blue.png");}
+#s4{background-image: url("../assets/Goblin_House.png");}
+#s5{background-image: url("../assets/Wood_Tower_Red.gif");}
 
 
-#g1{background-image: url("../assets/images/factions/goblins/Troops/TNT/Red/TNT_Red.gif");}
-#g2{background-image: url("../assets/images/factions/goblins/Troops/Torch/Red/Torch_Red_attack.gif");}
-#g3{background-image: url("../assets/images/factions/goblins/Troops/Torch/Red/Torch_Red_idle.gif");}
+#g1{background-image: url("../assets/TNT_Red.gif");}
+#g2{background-image: url("../assets/Torch_Red_attack.gif");}
+#g3{background-image: url("../assets/Torch_Red_idle.gif");}
 
-#k1{background-image: url("../assets/images/factions/knights/Troops/Archer/Blue/Archer_Blue_idle.gif");}
-#k2{background-image: url("../assets/images/factions/knights/Troops/Archer/Blue/Archer_Blue_shoot.gif");}
-#k3{background-image: url("../assets/images/factions/knights/Troops/Pawn/Blue/Pawn_Blue_build.gif");}
-#k4{background-image: url("../assets/images/factions/knights/Troops/Pawn/Blue/Pawn_Blue_chop.gif");}
-#k5{background-image: url("../assets/images/factions/knights/Troops/Pawn/Blue/Pawn_Blue_idle.gif");}
-#k6{background-image: url("../assets/images/factions/knights/Troops/Warrior/Blue/Warrior_Blue_attack1.gif");}
-#k7{background-image: url("../assets/images/factions/knights/Troops/Warrior/Blue/Warrior_Blue_attack2.gif");}
-#k8{background-image: url("../assets/images/factions/knights/Troops/Warrior/Blue/Warrior_Blue_idle.gif");}
+#k1{background-image: url("../assets/Archer_Blue_idle.gif");}
+#k2{background-image: url("../assets/Archer_Blue_shoot.gif");}
+#k3{background-image: url("../assets/Pawn_Blue_build.gif");}
+#k4{background-image: url("../assets/Pawn_Blue_chop.gif");}
+#k5{background-image: url("../assets/Pawn_Blue_idle.gif");}
+#k6{background-image: url("../assets/Warrior_Blue_attack1.gif");}
+#k7{background-image: url("../assets/Warrior_Blue_attack2.gif");}
+#k8{background-image: url("../assets/Warrior_Blue_idle.gif");}
 
-#r1{background-image: url("../assets/images/resources/GoldMine/GoldMine_Active.png");}
-#r2{background-image: url("../assets/images/resources/GoldMine/GoldMine_Inactive.png");}
+#r1{background-image: url("../assets/GoldMine_Active.png");}
+#r2{background-image: url("../assets/GoldMine_Inactive.png");}
 #r3{
-    background-image: url("../assets/images/resources/Sheep/Happy_Sheep_idle.gif");
+    background-image: url("../assets/Happy_Sheep_idle.gif");
     background-size: 160px;
 }
 #r4{
-    background-image: url("../assets/images/resources/Sheep/Happy_Sheep_jump.gif");
+    background-image: url("../assets/Happy_Sheep_jump.gif");
     background-size: 160px;
 }
 #r5{
-    background-image: url("../assets/images/resources/Trees/Tree_chop.png");
+    background-image: url("../assets/Tree_chop.png");
     background-size: 250%;
     background-position: bottom;
 }
 #r6{
-    background-image: url("../assets/images/resources/Trees/Tree_idle.gif");
+    background-image: url("../assets/Tree_idle.gif");
     background-size: 120px;
 }
 
