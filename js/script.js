@@ -143,7 +143,7 @@ function undoImages(event){
             }else{   
            
                 const image = new Image()
-                image.src = "../assets/images/terrain/Water/Water.png"
+                image.src = "../assets/Water.png"
                 tile.activeImage = image
                 tile.image(LastTileId)
                 tile.activeImage = " "
