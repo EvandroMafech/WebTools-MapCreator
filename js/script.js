@@ -63,7 +63,7 @@ function createGrid(){
 
 function createImage(selectedImageUrl){
     const image = new Image()
-    image.src = "./" + selectedImageUrl
+    image.src = "../" + selectedImageUrl
     console.log("o link é: " + image.src)
     console.log("o link é: " + image.src)
     activeImage = image
