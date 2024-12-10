@@ -63,7 +63,7 @@ function createGrid(){
 
 function createImage(selectedImageUrl){
     const image = new Image()
-    image.src = "./" + selectedImageUrl
+    image.src = `"https://evandromafech.github.io/WebTools-MapCreator/` + selectedImageUrl
     console.log(image.src)
     activeImage = image
 }
@@ -188,8 +188,6 @@ button.forEach(element => {
     element.addEventListener("click", (event) => {
         const selectedImageStyle = window.getComputedStyle(event.target);
         const selectedImageUrl = selectedImageStyle.backgroundImage.slice(27, -2)
-
-       // console.log(selectedImageUrl)
         activeImageId = event.target.id
               
         if(troopsSpriteCoordinates[activeImageId] == undefined){
