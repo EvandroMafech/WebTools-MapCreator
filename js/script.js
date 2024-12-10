@@ -63,8 +63,8 @@ function createGrid(){
 
 function createImage(selectedImageUrl){
     const image = new Image()
-    image.src = `"https://evandromafech.github.io/WebTools-MapCreator/` + selectedImageUrl
-    console.log(image.src)
+    image.src = selectedImageUrl
+    console.log("o link é: " + image.src)
     activeImage = image
 }
 
