@@ -64,6 +64,7 @@ function createGrid(){
 function createImage(selectedImageUrl){
     const image = new Image()
     image.src = "./assets/terrain28.png"
+    console.log(selectedImageUrl)
     activeImage = image
 }
 
