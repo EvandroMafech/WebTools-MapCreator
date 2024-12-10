@@ -64,6 +64,7 @@ function createGrid(){
 function createImage(selectedImageUrl){
     const image = new Image()
     image.src = selectedImageUrl
+    console.log("image estatica: " + selectedImageUrl)
     activeImage = image
 }
 
@@ -105,6 +106,7 @@ function createAnimatedImage(TileId){
             const y = tile.y
             const sheetImage = new Image
             sheetImage.src = image
+            console.log("image dinamica: " + image)
             const animatedImage = new AnimatedImage(sheetImage,x - adjustX,y - adjustY,activeAnimationId,frames,line,w,h,ctxAnimations)
             animatedImagesArray.push(animatedImage)
             allSetIdsArray.push(activeAnimationId)
@@ -186,7 +188,7 @@ button.forEach(element => {
 
     element.addEventListener("click", (event) => {
         const selectedImageStyle = window.getComputedStyle(event.target);
-        const selectedImageUrl = "../../" + selectedImageStyle.backgroundImage.slice(27, -2)
+        const selectedImageUrl = "../" + selectedImageStyle.backgroundImage.slice(27, -2)
         
         activeImageId = event.target.id
               
