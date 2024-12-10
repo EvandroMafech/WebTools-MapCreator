@@ -63,7 +63,7 @@ function createGrid(){
 
 function createImage(selectedImageUrl){
     const image = new Image()
-    image.src = "./assets/terrain28.png"
+    image.src = selectedImageUrl
     console.log(selectedImageUrl)
     activeImage = image
 }
@@ -189,7 +189,7 @@ button.forEach(element => {
         const selectedImageStyle = window.getComputedStyle(event.target);
         const selectedImageUrl = selectedImageStyle.backgroundImage.slice(27, -2)
 
-        console.log(selectedImageUrl)
+       // console.log(selectedImageUrl)
         activeImageId = event.target.id
               
         if(troopsSpriteCoordinates[activeImageId] == undefined){
