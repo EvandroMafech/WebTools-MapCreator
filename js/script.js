@@ -63,9 +63,9 @@ function createGrid(){
 
 function createImage(selectedImageUrl){
     const image = new Image()
-    image.src = "../" + selectedImageUrl
-    console.log("o link é: " + image.src)
-    console.log("o link é: " + image.src)
+    image.src = `"`+selectedImageUrl+`"`
+    console.log(`"`+selectedImageUrl+`"`)
+    console.log(image.src)
     activeImage = image
 }
 
@@ -188,7 +188,8 @@ button.forEach(element => {
 
     element.addEventListener("click", (event) => {
         const selectedImageStyle = window.getComputedStyle(event.target);
-        const selectedImageUrl = selectedImageStyle.backgroundImage.slice(27, -2)
+        const selectedImageUrl = "../" + selectedImageStyle.backgroundImage.slice(27, -2)
+        //console.log(selectedImageUrl)
         activeImageId = event.target.id
               
         if(troopsSpriteCoordinates[activeImageId] == undefined){
