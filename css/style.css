@@ -106,6 +106,7 @@ aside{
 #t3{background-image: url("../assets/terrain2.png");}
 #t4{background-image: url("../assets/terrain3.png");}
 #t5{background-image: url("../assets/terrain4.png");}
+#t5{background-image: url("../assets/terrain4.png");}
 
 #t6{background-image: url("../assets/terrain5.png");}
 #t7{background-image: url("../assets/terrain6.png");}
@@ -150,7 +151,35 @@ aside{
 #t39{background-image: url("../assets/terrain32.png");}
 #t40{background-image: url("../assets/terrain18.png");}
 
-#t41{background-image: url("../assets/Water.png");}
+#t41{background-image: url("../assets/stone1.png");}
+#t42{background-image: url("../assets/stone2.png");}
+#t43{background-image: url("../assets/stone3.png");}
+#t44{background-image: url("../assets/stone4.png");}
+#t45{background-image: url("../assets/bridge4.png");}
+
+#t46{background-image: url("../assets/stone9.png");}
+#t47{background-image: url("../assets/stone6.png");}
+#t48{background-image: url("../assets/stone7.png");}
+#t49{background-image: url("../assets/stone12.png");}
+#t50{background-image: url("../assets/bridge5.png");}
+
+#t51{background-image: url("../assets/stone13.png");}
+#t52{background-image: url("../assets/stone14.png");}
+#t53{background-image: url("../assets/stone15.png");}
+#t54{background-image: url("../assets/stone16.png");}
+#t55{background-image: url("../assets/bridge6.png");}
+
+#t56{background-image: url("../assets/stone16.png");}
+#t57{background-image: url("../assets/stone17.png");}
+#t58{background-image: url("../assets/stone18.png");}
+#t59{background-image: url("../assets/stone19.png");}
+#t60{background-image: url("../assets/stone20.png");}
+
+#t61{background-image: url("../assets/bridge1.png");}
+#t62{background-image: url("../assets/bridge2.png");}
+#t63{background-image: url("../assets/bridge3.png");}
+
+#t64{background-image: url("../assets/Water.png");}
 
 #d1{background-image: url("../assets/01.png");}
 #d2{background-image: url("../assets/02.png");}
@@ -231,7 +260,6 @@ aside{
 #dropdown-5 button{
     width: 100px;
     height: 100px;
-
 }
 
 
